@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <bookmarks list=""/>
+  <node unique_id="1" master_id="0" name="kernel" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579575" ts_lastsave="1719579603">
+    <node unique_id="2" master_id="0" name="questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579587" ts_lastsave="1719579587"/>
+  </node>
+  <node unique_id="3" master_id="0" name="COMPILATION-REPORT" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579603" ts_lastsave="1719579617">
+    <node unique_id="4" master_id="0" name="NOTES" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579617" ts_lastsave="1719579617"/>
+  </node>
+</cherrytree>
