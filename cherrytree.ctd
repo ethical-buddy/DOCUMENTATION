@@ -121,7 +121,7 @@ WHAT WE ARE CHOOSING</rich_text>
              </rich_text>
     <rich_text underline="single" weight="heavy">INIT PATH - default</rich_text>
     <rich_text weight="heavy">    </rich_text>
-    <node unique_id="6" master_id="0" name="NOTES" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579617" ts_lastsave="1719665501">
+    <node unique_id="6" master_id="0" name="NOTES" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579617" ts_lastsave="1719671575">
       <rich_text underline="single" style="italic" weight="heavy">
 </rich_text>
       <rich_text underline="single" style="italic" scale="h2" weight="heavy">Compiling A Custom Linux Kernel:</rich_text>
@@ -137,7 +137,7 @@ WHAT WE ARE CHOOSING</rich_text>
 				2. Compile kernel with warnings as error 
 				3. No - local version append 
 				4. Yes kernel version append
-				5. No build id slat
+				5. No build id salt
 
                </rich_text>
       <rich_text underline="single" scale="h3" weight="heavy">Choosing a diff kernel compression algo</rich_text>

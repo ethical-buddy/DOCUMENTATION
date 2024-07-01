@@ -32,7 +32,7 @@
 
 </rich_text>
     </node>
-    <node unique_id="5" master_id="0" name="LINKS -" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719665035" ts_lastsave="1719665054">
+    <node unique_id="5" master_id="0" name="LINKS -" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719665035" ts_lastsave="1719666511">
       <rich_text underline="single" link="webs https://wiki.archlinux.org/title/Kernel/Traditional_compilation" foreground="#1155cc">Kernel/Traditional compilation - ArchWiki</rich_text>
       <rich_text>
 
@@ -48,7 +48,12 @@
       <rich_text underline="single" link="webs https://www.learnlinux.org.za/courses/build/internals/internals.pdf" foreground="#1155cc">https://www.learnlinux.org.za/courses/build/internals/internals.pdf</rich_text>
       <rich_text>
 
+
+
+
 </rich_text>
+      <rich_text link="webs https://www.kali.org/docs/development/live-build-a-custom-kali-iso/">https://www.kali.org/docs/development/live-build-a-custom-kali-iso/</rich_text>
+      <rich_text> ***********************</rich_text>
     </node>
   </node>
   <node unique_id="3" master_id="0" name="COMPILATION-REPORT" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579603" ts_lastsave="1719665823">
