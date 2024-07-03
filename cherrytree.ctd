@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cherrytree>
   <bookmarks list=""/>
-  <node unique_id="1" master_id="0" name="kernel" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579575" ts_lastsave="1719579603">
+  <node unique_id="1" master_id="0" name="kernel" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579575" ts_lastsave="1719922594">
     <node unique_id="2" master_id="0" name="questions" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719579587" ts_lastsave="1719665861">
       <rich_text weight="heavy">
 </rich_text>
@@ -56,6 +56,50 @@
       <rich_text> ***************************
 
 
+</rich_text>
+    </node>
+    <node unique_id="9" master_id="0" name="yt video compile options" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1719922594" ts_lastsave="1719926583">
+      <rich_text>General Setup:	
+	Kernel Compression : ZSTD
+	Posix Message Queues : Disable
+	Auditing Support : Disable
+	Timer Subsytem -&gt; Timer tick handling -&gt; </rich_text>
+      <rich_text weight="heavy">Periodic timer ticks </rich_text>
+      <rich_text>selected instead of </rich_text>
+      <rich_text weight="heavy">Idle dynticks system</rich_text>
+      <rich_text>
+	Timer Subsystem -&gt; Old Idle Dynticks config disabled
+	Timer Subsystem -&gt; High Resolution Timer support disabled
+	CPU Task time &amp; stats accounting -&gt; BSD Process accounting disabled
+	Kernel Log Buffer size set to 16 (64 KB)
+	CPU kernel log buffer size set to 15 (32 KB)
+	Temporary per-CPU printk log buffer size set to 13 (8 KB)
+	Disable initramfs support for all types of compression (keep regular)
+	
+Processor type &amp; features:
+	Disable stuff for amd if on intel &amp; vice-versa
+	Change maximum number of CPU's to fit machine spec
+	Disable AMD microcode loading support
+	keep msr &amp; cpuid enabled
+	keep NUMA mem alloc &amp; sched support enabled
+	disable 5 level page tables support
+	set maximum NUMA nodes to 6
+	disable memory protection keys
+	
+Power mgmt:
+	Disable Suspend to RAM &amp; Hibernation if not on laptop
+	CPU Frequency Scaling:
+		Enable CPUIdle drivers for intel processors
+		
+		
+Disable RAID &amp; LVM Support in device drivers
+Disable Macintosh device drivers
+Disable network features not in use
+Disable Touchscreen supports
+Alter Maximum number of gpus
+
+
+Enable sound card support
 </rich_text>
     </node>
   </node>
